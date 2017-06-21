@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="js/jquery.mask.min.js"></script>
+ <script src="js/Cadastro.js" ></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+ 
+ <style type="text/css">
+ .container {
+     width:500px;
+     max-width: 100%;
+     margin-top: 100px; }
+     label{
+         font-size: 15px;
+         font-weight: bold;
+     }
+ </style>
+    <title>Document</title>
+</head>
+<body style="background-color: #dedede">
+    <div class="container">
+        <form class="form-register">
+            <div class="form-group">
+            <label for="inputEmail"> Digite seu Email</label>
+            <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+            </div>
+            <div class="form-group">
+                <label for="inputPassword"> Digite sua senha </label>
+                <input type="password" class="form-control" id="inputPassword" placeholder="Senha">
+            </div>
+            <div class="form-group">
+                <label for="confirmPassword">Confirme sua senha </label>
+                <input type="password" class="form-control" id="confirmPassword" placeholder="Confirme sua Senha">
+            </div>
+            
+            <div class="form-group">
+                <label for="inputCPF">Digite seu CPF</label>
+                <input type="text" class="form-control" id="inputCPF" placeholder="000.000.000 - 00">
+            </div>
+            
+            <div class="form-group">
+                <label for="inputData">Digite sua data de nascimento</label>
+                <input type="txt" class="form-control" id="inputData" placeholder="dd/mm/aaaa">
+            </div>
+            
+            <div class="form-group">
+                <label for="inputCEP">Digite seu CEP</label>
+                <input type="txt" class="form-control" id="inputCEP" placeholder="00000-000">
+            </div>
+            <button type="submit" class="btn btn-lg btn-primary btn-block">Cadastrar!</button>
+        </form>
+    </div>
+</body>
+</html>
